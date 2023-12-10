@@ -19,7 +19,7 @@ import { useState } from "react";
 // };
 
 export const AddCabin = () => {
-  const [isOpenModal, setIsOpenModal] = useState(true);
+  const [isOpenModal, setIsOpenModal] = useState(false);
 
   return (
     <div>
